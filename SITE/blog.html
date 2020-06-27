@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
 
-    <title>Blog</title>
+    <title>Imovius Story</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap core CSS -->
@@ -16,50 +16,57 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/projeto.css">
 
 </head>
 
 <body>
-
-    <div class="container">
-        <header class="blog-header py-3">
-            <div class="row flex-nowrap justify-content-between align-items-center">
-
-                <div class="col-12 d-flex justify-content-end align-items-center">
-                    <input type="text" placeholder="Pesquisa">
-
-                    <div class="btn" role="button">
-                        <div class="bg-secondary pesquisar">
-                            <a href="#" class="text-white">
-                                <svg class=" bi bi-search mt-1" width="20px" height="20px" viewBox="0 0 16 16"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
-                                    <path fill-rule="evenodd"
-                                        d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
-                </div>
-            </div>
-        </header>
-
-
-        <div class="nav-scroller py-1 mb-2">
-            <nav class="nav d-flex justify-content-between">
-                <a class="p-2 text-muted" href="#">Mundo</a>
-                <a class="p-2 text-muted" href="#">Technologia</a>
-                <a class="p-2 text-muted" href="#">Design</a>
-                <a class="p-2 text-muted" href="#">Cultura</a>
-                <a class="p-2 text-muted" href="#">Negócio</a>
-                <a class="p-2 text-muted" href="#">Politicas</a>
-                <a class="p-2 text-muted" href="#">Opinião</a>
-                <a class="p-2 text-muted" href="#">Estilo</a>
-                <a class="p-2 text-muted" href="#">Viagem</a>
-            </nav>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <a class="navbar-brand text-light logog px-5">IMÓVEUS STORY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#aparecer">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 ml-5 collapse navbar-collapse" id="aparecer">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="Principal.html" class="nav-link text-light" target="_self">Principal</a>
+                </li>
+                <li class="nav-item"><a href="HOMEP.html" class="nav-link text-light" target="_self">Home</a></li>
+                <li class="nav-item"><a href="Imóveis.html" class="nav-link text-light" target="_self">Imóveis</a></li>
+                <li class="nav-item"><a href="Móveis.html" class="nav-link text-light" target="_self">Móveis</a></li>
+                <li class="nav-item"><a href="Apartamento.html" class="nav-link text-light"
+                        target="_self">Apartamento</a></li>
+            </ul>
         </div>
+    </nav>
+    <div class="bg-mdark">
+        <div class="container">
+            <div class="row">
+                <div class="offset-0 offset-md-3 col-md-6 col-lg-6 col-xl-6 col-9 col-sm-9 mb-4">
+                    <label id="pesquisainput"></label>
+                    <input class="  form-control" type="text" placeholder="Pesquisar">
+                </div>
+
+                <div class="btn" role="button">
+                    <div class="bg-secondary botao">
+                        <a href="#" class="text-white">
+                            <svg class=" bi bi-search mt-1" width="20px" height="20px" viewBox="0 0 16 16"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                <path fill-rule="evenodd"
+                                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class=" mb-4"></div>
+
+            </div>
+        </div>
+    </div>
+    <!--FIMNAV-->
+    <div class="container">
+
 
         <div class="jumbotron p-3 fundo p-md-5 text-white rounded">
             <div class="col-md-6 px-0">
@@ -84,7 +91,7 @@
                             incrível.</p>
 
                     </div>
-                    <img class="offset-1" src="img\casadoblog1.jpg" width="300px" height="420px">
+                    <img class="offset-1" src="img\blog\casadoblog1.jpg" width="300px" height="420px">
                 </div>
             </div>
             <div class="col-md-6">
@@ -98,7 +105,7 @@
                             Eis aqui a oportunidade, nova casa com o designe de um piano é construida em Acre,<br>
                             feita perfeitamente para você que é apaixonado por piano, ou violino.</p>
                     </div>
-                    <img class="offset-1" src="img\casadoblog2.jpg" width="300px" height="420px">
+                    <img class="offset-1" src="img\blog\casadoblog2.jpg" width="300px" height="420px">
                 </div>
             </div>
         </div>
@@ -144,13 +151,13 @@
                         sensores de calor, entre outros equipamentos que iram deixar sua casa segura.
                     </p>
 
-                </div><!-- /.blog-post -->
+                </div>
 
                 <div class="blog-post">
                     <h2 class="blog-post-title">Novos destaques para sua casa</h2>
                     <p class="blog-post-meta">22 de Abril de 2020 por <a href="#">Jessica</a></p>
 
-                    <p>Nós da Imovius Maker estamos lançando mais coisas para sua casa a cada dia,
+                    <p>Nós da Imovius Story estamos lançando mais coisas para sua casa a cada dia,
                         algumas delas são os tapetes, lustres, quadros, entre outros.
                         Fizamos isso para deixar seu doce lar com mais vida, você pode comprar os seus
                         agora mesmo conosco, aproveite.
@@ -163,7 +170,7 @@
                 </nav>
 
 
-            </div><!-- /.blog-main -->
+            </div>
 
 
             <aside class="col-md-4 blog-sidebar">
@@ -177,18 +184,18 @@
                 <div class="p-3">
                     <h4 class="font-italic">Archives</h4>
                     <ol class="list-unstyled mb-0">
-                        <li><a href="#">March 2014</a></li>
-                        <li><a href="#">February 2014</a></li>
-                        <li><a href="#">January 2014</a></li>
-                        <li><a href="#">December 2013</a></li>
-                        <li><a href="#">November 2013</a></li>
-                        <li><a href="#">October 2013</a></li>
-                        <li><a href="#">September 2013</a></li>
-                        <li><a href="#">August 2013</a></li>
-                        <li><a href="#">July 2013</a></li>
-                        <li><a href="#">June 2013</a></li>
-                        <li><a href="#">May 2013</a></li>
-                        <li><a href="#">April 2013</a></li>
+                        <li><a href="#">March 2020</a></li>
+                        <li><a href="#">February 2020</a></li>
+                        <li><a href="#">January 2020</a></li>
+                        <li><a href="#">December 2019</a></li>
+                        <li><a href="#">November 2019</a></li>
+                        <li><a href="#">October 2019</a></li>
+                        <li><a href="#">September 2019</a></li>
+                        <li><a href="#">August 2019</a></li>
+                        <li><a href="#">July 2019</a></li>
+                        <li><a href="#">June 2019</a></li>
+                        <li><a href="#">May 2019</a></li>
+                        <li><a href="#">April 2019</a></li>
                     </ol>
                 </div>
 
@@ -201,11 +208,11 @@
                         <li><a href="#">Linkedin</a></li>
                     </ol>
                 </div>
-            </aside><!-- /.blog-sidebar -->
+            </aside>
 
-        </div><!-- /.row -->
+        </div>
 
-    </main><!-- /.container -->
+    </main>
     <footer class=" footer container-fluid  py-5">
         <div class="row offset-1">
 
@@ -265,14 +272,14 @@
         <div class="btn p-3 mr-2 facecolor rounded-circle">
             <a class="fa social_buttons fa-facebook"></a>
         </div>
-        <div class="btn p-3 mr-2 btn-primary rounded-circle">
+        <div class="btn p-3 mr-2 twittercolor  rounded-circle">
             <a class="fa social_buttons fa-twitter"></a>
         </div>
-        <div class="btn p-3 mr-2 btn-primary rounded-circle">
-            <a class="fa social_buttons fa-linkedin"></a>
+        <div class="btn p-3 mr-2 linkedincolor rounded-circle">
+            <a class="fa social_buttons  fa-linkedin"></a>
         </div>
         <div class="btn p-3 mr-2 instacolor rounded-circle">
-            <a class="fa social_buttons fa-instagram"></a>
+            <a class="fa social_buttons  fa-instagram"></a>
         </div>
     </div>
 
