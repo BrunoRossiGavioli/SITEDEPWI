@@ -34,6 +34,7 @@
 }
 
 .botao{
+    
     margin-top: 18px;
     background-color: #545759;
     color: white;
@@ -66,5 +67,50 @@
 }
 
 .img{
+    
+}
+
+.fb{
+    background-image: url(../img/fundo/fundo.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 600px;
+    background-position: center;
+}
+.fbt{
+    background-image: url(../img/fundo/fundo.jpg);
+}
+
+.centro{
+    margin-right: 400px;
+    margin-left: 400px;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    opacity: 1;
+    margin: 0 auto;
+}
+
+.pad{
+    height: 150px;
+}
+
+.conteudo{
+    padding-top: 30px;
+    opacity: 10;
+}
+
+.bg-textoc{
+    background-color: lightblue;
+}
+
+.letra{
+    font-size: 20px;
+}
+
+.img{
+    max-width: 550px;
+    max-height: 350px;
     
 }
